@@ -7,6 +7,15 @@
 <a href="https://packagist.org/packages/laravel/framework"><img src="https://img.shields.io/packagist/l/laravel/framework" alt="License"></a>
 </p>
 
+## How to run the program on your PC
+Step 1: git clone "the address given in the project"
+Step 2: after download run "composer install"
+Step 3: reach out for db file inside db folder from the root and connect MySql.
+Step 4: Connect MySql by creating a copy of .env.example in the root folder and changing db-name to name of the db file.
+Step 5: It must ask for a key now, generate key by command "php artisan key:generate" at terminal on the root directory.
+Step 6: Voala!! Start your server and your application will be working!
+
+
 ## About Laravel
 
 Laravel is a web application framework with expressive, elegant syntax. We believe development must be an enjoyable and creative experience to be truly fulfilling. Laravel takes the pain out of development by easing common tasks used in many web projects, such as:
